@@ -45,6 +45,7 @@ li {
 
 .header--menu:hover > .menu--child {
     display: block;
+    z-index: 4;
 }
 
 .menu--child {
@@ -151,7 +152,7 @@ li {
 }
 .item_hoa img{
     margin:  0px 0px 0px 0px;
-    padding: 0px 0px 15px 0px;
+    padding: 15px;
     width: 100%;
 }
 .item_hoa.bolder h5{
