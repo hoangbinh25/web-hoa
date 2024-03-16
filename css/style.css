@@ -6,7 +6,7 @@
 
 html, body {
     font-family: Lato, Arial,sans-serif !important;
-    background-color: #f5f5f5 !important;
+    background-color: #ffffff !important;
 }
 
 li {
@@ -135,14 +135,14 @@ li {
 }
 .list_hoa{
     display: flex;
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
     flex-wrap: wrap;
     justify-content: space-around;
     width: 1200px;
 }
 .item_hoa{
     background-color: #fff;
-    width: 290px;
+    width: 280px;
     margin-bottom: 20px;
     padding: 0px;
     text-align: center;
