@@ -121,6 +121,7 @@ li {
 .chitiet {
     width: 1300px;
     display: flex;
+    justify-content: space-between;
 }
 .chitiet.imgsp {
     padding-right: 15px;
