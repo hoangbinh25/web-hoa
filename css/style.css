@@ -198,14 +198,14 @@ small{
     line-height: 1.3;
 }
 .item_hoa:hover{
-    /* backgro und-color: rgba(0, 0, 0, 0.4); */
+    /* background-color: rgba(0, 0, 0, 0.4); */
     box-shadow: 5px 5px 25px 5px gray;
     cursor: pointer;
 }
 
 
-/* lớp phủ */
-/* .item_hoa{
+/* lớp phủ
+.item_hoa{
     position: relative;
 }
 .item_hoa.ovelay{
@@ -221,4 +221,5 @@ small{
     align-items: center;
     transform: scale(0);
     transition: .25s all;
+
 } */
