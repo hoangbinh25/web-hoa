@@ -224,7 +224,7 @@ small{
 
 } */
 
-#module p.collapse[aria-expanded="false"] {
+small.collapse[aria-expanded="false"] {
     height: 42px !important;
     overflow: hidden;
   
@@ -233,14 +233,14 @@ small{
     -webkit-box-orient: vertical;  
 }
 
-#module p.collapsing[aria-expanded="false"] {
+small.collapsing[aria-expanded="false"] {
     height: 42px !important;
 }
 
-#module a.collapsed:after  {
-    content: '+ Show More';
+a.collapsed:after  {
+    content: '+ Xem thêm';
 }
 
-#module a:not(.collapsed):after {
-    content: '- Show Less';
+a:not(.collapsed):after {
+    content: '- Ẩn bớt';
 }
