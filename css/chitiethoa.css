@@ -13,10 +13,6 @@ li {
     list-style: none;
 }
 
-hr {
-    background-color: #ec008c;
-}
-
 
 .nav__header {
     display: flex;
@@ -25,6 +21,7 @@ hr {
     color: #fff;
     background-color: rgb(248, 63, 95);
     padding: 10px 15px 13px;
+    margin-top: 10px;
 }
 
 .header--menu > a,
@@ -35,7 +32,6 @@ hr {
 
 .header--menu{
     position: relative;
-    z-index: 10;
 }
 
 .header--menu ::after{
@@ -99,7 +95,6 @@ hr {
     background-color: #fff;
     padding: 0;
     display: none;
-    z-index: 1;
 }
 
 .menu--child-small > li > a {
@@ -120,81 +115,21 @@ hr {
     display: block;
 }
 
-.banner {
-    height: 500px;
-    width: 100%;
-    background-color: gray;
-}
 
-.banner > img {
-    width: 100%;
-    height: 100%;
-    background: url(/img/d63109c42b63a902b5c5630e0bfca9f4.jpg)
-}
 
-.container--slide {
-    background-color: gray;
-    height: 500px;
-    width: auto;
-}
-
-/* itemhoa */
-.title h2{
-    text-align: center;
-    padding: 5px 0px 5px 0px;
-    margin: 5px 0px 5px 0px;
-    font-weight: bold;
-    
-}
-.list_hoa{
+/* chi tiết sản phẩm    */
+.chitiet {
+    width: 1300px;
     display: flex;
-    background-color: rgb(255, 255, 255);
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
 }
-.item_hoa{
-    background-color: #fff;
-    width: 280px;
-    margin-bottom: 20px;
-    padding: 0px;
-    text-align: center;
-    border: gray solid 0.1px;
-    border-radius: 5px;
+.chitiet.imgsp {
+    padding-right: 15px;
 }
-.item_hoa img{
-    margin:  0px 0px 0px 0px;
-    padding: 15px;
-    width: 100%;
-}
-.item_hoa.bolder h5{
-    font-weight: bolder;
-}
-.item_hoa.lighter h5{
-    font-weight: bolder;
-}
-.item_hoa:hover{
-    /* backgro und-color: rgba(0, 0, 0, 0.4); */
-    box-shadow: 5px 5px 25px 5px gray;
-    cursor: pointer;
+.chitiet.imgsp img {
+    width: 700px;
+    height: 500px;
 }
 
-
-/* lớp phủ */
-/* .item_hoa{
-    position: relative;
+.dipcription{
+    width: 600px;
 }
-.item_hoa.ovelay{
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    transform: scale(0);
-    transition: .25s all;
-} */
