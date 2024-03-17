@@ -23,7 +23,8 @@ hr {
     align-items: center;
     justify-content: space-evenly;
     color: #fff;
-    background-color: rgb(248, 63, 95);
+    background-color: #99ffff;
+    /* background-color: rgb(248, 63, 95); */
     padding: 10px 15px 13px;
     width: 1296px;
     position: fixed;
@@ -183,17 +184,17 @@ hr {
     font-weight: bolder;
     padding: 10px 0px 10px 0px;
 }
-.item_hoa.lighter h5{
+.item_hoa.lighter{
     font-weight: bolder;
     padding: 0px;
 }
-.lighter small{
-    -webkit-line-clamp: 2;
+
+small{
+    padding: 0px 5px 0px 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-.item_hoa.lighter h5 small{
-    padding: 0px 5px 0px 5px;
 }
 .item_hoa:hover{
     /* backgro und-color: rgba(0, 0, 0, 0.4); */
