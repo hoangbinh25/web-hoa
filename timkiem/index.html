@@ -3,15 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/timkiem/style.css">
+    <link rel="stylesheet" href="/web-hoa/timkiem/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
-    <title>Document</title>
+    <title>Tìm kiếm nhanh</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col l-12">
+                <ul class="nav__header">
+                    <i class="fa-solid fa-bars header--menu-icon"></i>
+                    <li class="header--menu">
+                        <a href="#">Danh mục sản phẩm</a>
+                        <ul class="menu--child">
+                            <li>
+                                <a href="#hoacaocap">Hoa cao cấp</a>
+                            </li>
+                            <li>
+                                <a href="#hoakiniem">Hoa kỉ niệm</a>
+                            </li>
+                            <li>
+                                <a href="#hoakhaitruong">Hoa khai trương</a>
+                            </li>
+                            <li>
+                                <a href="#hoatangle">Hoa tang lễ</a>
+                            </li>
+                            <li>
+                                <a href="#hoasinhnhat">Hoa sinh nhật</a>
+                            </li>
+                            <li>
+                                <a href="#hoatinhyeu">Hoa tình yêu</a>
+                            </li>
+                            <li>
+                                <a href="#hoacuoi">Hoa cưới</a>
+                            </li>
+                            <li>
+                                <a href="#hoasukien">Hoa sự kiện</a>
+                            </li>
+                            <li>
+                                <a href="#hoangayle">Hoa ngày lễ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-list">
+                        <a href="/index.html">TRANG CHỦ</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="">DỊCH VỤ</a>
+
+                    </li>
+                    <li class="header-list-small">
+                        <a href="">HOA NGÀY LỄ</a>
+                        <ul class="menu--child-small">
+                            <li>
+                                <a href="">Hoa 20/10</a>
+                            </li>
+                            <li>
+                                <a href="">Hoa 8/3</a>
+                            </li>
+                            <li>
+                                <a href="">Hoa 14/2</a>
+                            </li>
+                            <li>
+                                <a href="">Bó hoa hướng dương</a>
+                            </li>
+                            <li>
+                                <a href="">Hoa 20/11</a>
+                            </li>
+                            <li>
+                                <a href="">Hoa tặng lễ tốt nghiệp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header-list">
+                        <a href="/giohang/index.html">GIỎ HÀNG</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="/khuyenmai/index.html">TIN TỨC</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="/chitiethoa/index.html">CHI TIẾT HOA</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="/timkiem/index.html">TÌM KIẾM</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Định nghĩa carousel -->
+        <div class="banner">
+            <img src="/img/banner/Hỗ trợ tìm hoa....gif" alt="">
+        </div> 
+        <h1 class="title__search">
+            Tìm kiếm nhanh
+        </h1>
+        <div class="container form__search">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-6">
+                  <label for="validationCustom01" class="form-label">Từ khóa:</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label">Tìm theo:</label>
+                    <select class="form-select" id="validationCustom04" required>
+                      <option selected disabled value="">Tên sản phẩm</option>
+                        <option>Hoa Hồng</option>
+                        <option>Hoa hướng dương</option>
+                        <option>Hoa hướng dương</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-xl">
+                    <label for="validationCustom04" class="form-label">Tìm trong chủ đề: </label>
+                    <select class="form-select" id="validationCustom04" required>
+                      <option selected disabled value="">Chọn thông tin</option>
+                        <option>Hoa Ngày Lễ</option>
+                        <option>Hoa Cưới</option>
+                        <option>Hoa Khai Trương</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label">Giá từ:</label>
+                    <select class="form-select" id="validationCustom04" required>
+                      <option value="">100 000 VNĐ</option>
+                        <option>200 000 VNĐ</option>
+                        <option>500 000 VNĐ</option>
+                        <option>1 000 000 VNĐ</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom04" class="form-label">Tới:</label>
+                    <select class="form-select" id="validationCustom04" required>
+                      <option selected disabled value="">Chọn</option>
+                        <option>5 000 000 VNĐ</option>
+                        <option>15 000 000 VNĐ</option>
+                        <option>25 000 000 VNĐ</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+            <div class="">
+                <button class="btn-agree" type="submit">Đồng ý</button>
+                <button class="btn-cancel" type="submit">Hủy bỏ</button>
+            </div>
+              </form>
+        </div>
+        <h2 class="title__update">Mẫu hoa mới cập nhật</h2c>
+        <div class="form__flower--update">
+                <div class="col-md-4 img">
+                    <img class="img-flower" src="/img/aa146.webp" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="description">
+                        <div class="id">Mã SP : 140001</div>
+                        <div class="price">Giá: 400 000 VNĐ</div>
+                        <div class="type">Loại: Hoa trang trí</div>
+                        <div class="inf">Thông tin: Hoa đặt tại sảnh, gồm nhiều loại hoa đẹp, đa sắc. Thay hoa mỗi tuần 2 lần</div>
+                    </div>
+                  </div>
+                
+        </div>
+                <div class="btn">
+                    <button class="btn-agree" type="submit">Đặt mua</button>
+                    <button class="btn-cancel" type="submit">Xem chi tiết</button>
+                </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>
