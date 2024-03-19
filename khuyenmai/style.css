@@ -33,6 +33,7 @@ hr {
     padding: 10px 15px 13px;
     width: 1296px;
     position: fixed;
+    z-index: 3;
 }
 
 .header--menu > a,
@@ -150,7 +151,8 @@ hr {
 }
 
 /* chitiethoa */
-/* .noi-dung{
+.noi-dung{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,8 +160,8 @@ hr {
     border: 2px solid var(--primary-color);
     border-radius: 15px;
     margin: auto;
-} */
-
+    
+}
 .hearder-box h2{
     padding: 5px 0px;
     /* background-color: var(--primary-color); */
@@ -169,13 +171,31 @@ hr {
     text-align: center;
 }
 .content-box{
-    width: 70%;
+    width: 80%;
     background-color: #ffffff;
-} 
- .content-box p{
+    position: relative;
+    
+}
+.content-box a{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    padding-right: 20px;
+    text-decoration: none;
+}
+.content-box p{
     text-align: left;
     padding: 0 20px 0 20px;
-    word-break:unset;
+    
     color: var(--primary-color);
-    text-indent: 50px; 
+}
+.conten-img{
+    margin: 8px;
+}
+
+.conten-chi-tiet h5{
+    text-align: left;
+    text-indent: 50px;
+    font-weight: bolder;
+    padding: 10px 0px 0px 0px;
 }
