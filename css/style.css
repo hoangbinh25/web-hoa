@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: var(--primary-color);
 }
 
 :root {
@@ -169,7 +170,7 @@ li {
     margin-bottom: 20px;
     padding: 0px;
     text-align: center;
-    border: gray solid 0.1px;
+    border: var(--primary-color) solid 0.1px;
     border-radius: 5px;
 }
 .item_hoa img{
