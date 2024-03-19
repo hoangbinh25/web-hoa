@@ -226,9 +226,9 @@ label {
     margin: 0 0 30px 40px;
 }
 
-.btn {
-    display: flex;
-    justify-content: space-evenly;
+.btn-pri {
+    margin: 20px 48px 0 0;
+    text-align: center;
 }
 
 .btn-agree {
